@@ -896,7 +896,7 @@ Show the help message and exit.
     ```
 
 A comma-separated list of hostnames to [access the JSON-RPC API](../../how-to/use-besu-api/index.md#host-allowlist) and
-[pull Besu metrics](../../how-to/monitor/metrics.md).
+[pull Besu ](../../how-to/monitor/metrics.md).
 By default, Besu accepts requests from `localhost` and `127.0.0.1`.
 
 !!! important
@@ -1087,7 +1087,7 @@ Categories containing `PRIVATE` track metrics when you enable
 === "Syntax"
 
     ```bash
-    ---metrics-enabled[=<true|false>]
+    --metrics-enabled[=<true|false>]
     ```
 
 === "Example"
